@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab";
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+p {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+/*nav area start*/
+#nav {
+    padding: 47px 0;
+    background: #e5e5e5;
+}
+
+.navbar-brand {
+    color: #4e4e4e;
+    font-size: 40px;
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.nav-link {
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 22px;
+    transition: all linear 0.3s;
+}
+
+.nav-link:hover {
+    color: #1abb9c;
+}
+
+.navbar-brand:hover {
+    color: #1abb9c;
+}
+
+/*nav area end*/
+
+/*banner area start*/
+
+#banner {
+    background: url(../image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 198px 0;
+}
+
+.bnr_content h1 {
+    font-size: 40px;
+    color: #f3f3f3;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.bnr_content p {
+    font-size: 32px;
+    color: #a8a8a8;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding: 35px 0 60px 0;
+}
+
+.bnr_content a {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding: 17px 27px;
+    background: #3f8dbf;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+
+.bnr_content a:hover {
+    background: #1abb9c;
+}
+
+/*banner area end*/
+
+/*about area start*/
+
+#about {
+    padding: 60px 0;
+}
+
+.icn_content h3 {
+    padding: 30px 0 10px 0;
+    color: #4e4e4e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icn_content p {
+    color: #616161;
+    font-size: 14px;
+}
+
+/*about area end*/
+
+hr {
+    margin: 0;
+}
+
+/*journal area start*/
+
+#journal {
+    padding: 62px 0 57px 0;
+}
+
+
+#journal h4 {
+    font-size: 18px;
+    color: #4e4e4e;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    padding-bottom: 20px;
+}
+
+.main_content img {
+    width: 100%;
+    overflow-x: hidden;
+    transition: all linear 0.3s;
+}
+
+.main_content img:hover {
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.45);
+}
+
+.main_text h3 {
+    font-size: 18px;
+    color: #4e4e4e;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding: 20px 0 10px 0;
+}
+
+.main_text h5 {
+    font-size: 13px;
+    color: #a8a8a8;
+    font-family: "Roboto Slab";
+    padding-bottom: 20px;
+}
+
+.main_text P {
+    font-size: 14px;
+    color: #5c5c5c;
+    font-family: "Roboto";
+}
+
+/*journal area end*/
+
+/*service area start*/
+#service {
+    background-color: #efefef;
+    padding: 54px 0 64px 0;
+}
+
+.all_content_here h1 {
+    color: #dcdcdc;
+    font-size: 100px;
+    padding-bottom: 35px;
+}
+
+.all_content_here p {
+    font-size: 20px;
+    color: #a1a1a1;
+    font-family: "Roboto Slab";
+    padding: 0 170px;
+}
+
+/*service area end*/
+
+.sec_hr {
+    margin: 0;
+    height: 9px;
+    width: 100%;
+    background: #171717;
+}
+
+/*features area start*/
+
+#features {
+    background: #1e1e1e;
+    padding: 41px 0 50px 0;
+}
+
+
+.doc_area h1 {
+    font-size: 18px;
+    color: #6c6c6c;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+}
+
+.doc_area p {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+
+.doc_area a {
+    font-size: 14px;
+    color: #a79574;
+}
+
+.doc_area h2 {
+    display: flex;
+    font-size: 14px;
+    color: #cacaca;
+    font-family: "Roboto";
+}
+
+.doc_area h3 {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.doc_area h4 {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+
+
+
+
+/*features area end*/
